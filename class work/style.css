@@ -1,0 +1,176 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 2vw;
+}
+body {
+  background-color: #5d8aa8;
+  color: #d3d3d3;
+}
+.outercontainer {
+  border: 2px solid black;
+  margin: 4em;
+  box-shadow: 3vw 3vw 8vw black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height:auto;
+}
+.outercontainer > div {
+  flex: 1 1 50%;
+}
+.innerformcontainer {
+  font-size: 0.8rem;
+  margin: 1em;
+  border: 0.2em solid white;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  align-items: center;
+  background-color: #2c3e50;
+}
+.innerformcontainer > div {
+   width:100%;
+  height: auto;
+  font-size: 1rem;
+  padding:0.2em;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+.inputname , .inputusername,.inputemail,.inputphone,.inputaddress{
+  width: 25vw;
+  height: 2vw;
+  border-radius: 4vw;
+  font-size: 1rem;
+  text-align: center;
+.labelname,.labelusername,.labelemail,.labelphone,.labelpfp,.labeladdress{
+    font-size: 1.5rem;
+  }
+}
+.inputpfp{
+  width: 28vw;
+  font-size: 1rem;
+  margin-left: 3vw;
+}
+.imagecontainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  padding: 0.5em;
+}
+.logo {
+  width: 50%;
+  align-self: center;
+  margin: 0.8vw 0.8vw 0;
+}
+.imagehead2 {
+  align-self: center;
+  font-size: 1.5rem;
+}
+.imagepara {
+  align-self: center;
+  font-size: 0.8rem;
+  margin: 1em;
+}
+.genderhead{
+  font-size: 1.25rem;
+}
+.lgen{
+  font-size: 1.25rem;
+}
+.igen{
+  width:1rem;
+  height: 1rem;
+}
+.submit{
+  font-size: 1.25rem;
+  margin-left: auto;
+  padding: 0.1em;
+  width: 6em;
+  border-radius: 5em;
+  color:white;
+  background-color:#5d8aa8 ;
+  margin: 0.1em 0 0.1em auto;
+}
+
+@media (max-width: 820px) {
+  .outercontainer {
+
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+ 
+    
+
+  .innerformcontainer {
+    font-size: 2rem;
+    padding: 0.1em;
+    border: 0.1em solid white;
+    margin:0.2em;
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  .labelname,.labelusername,.labelemail,.labelphone,.labelpfp,.labeladdress{
+    font-size: 2.5rem;
+  }
+  .inputname , .inputusername,.inputemail,.inputphone,.inputaddress{
+    width: 50vw;
+    height: 4vw;
+    border-radius: 4vw;
+    font-size: 2rem;
+    text-align: center;
+  
+  }
+  .inputpfp{
+    width: 56vw;
+    font-size: 2rem;
+    margin-left: 6vw;
+  }
+  
+    
+  .imagehead , .imagehead2{
+    font-size: 3rem;
+  }
+  .logo {
+    width: 40%;
+    align-self: center;
+    margin: 2rem 0 2rem 0;
+  }
+  .imagepara {
+
+    font-size: 2rem;
+    margin: 0.2em;
+  }
+  .genderhead{
+    font-size: 2.5rem;
+  }
+  .lgen{
+    font-size: 2.5rem;
+  }
+  .igen{
+    width:2rem;
+    height: 2rem;
+  }
+  .submit{
+    font-size: 2.5rem;
+    margin-left: auto;
+    padding: 0.2em;
+    width: 8em;
+    border-radius: 10em;
+    color:white;
+    background-color:#5d8aa8 ;
+    margin: 0.2em auto 0.2em auto;
+  }
+  
+  
+}
+

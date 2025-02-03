@@ -1,0 +1,200 @@
+/* Base Styles */
+html {
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 3rem;
+    background-color: #f7f9fc; /* Light gray background for a clean look */
+    color: #333333; /* Dark gray text for readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif; /* Modern font */
+  }
+  
+  /* Main Container */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    max-width: 1400px; /* Wider container for a spacious layout */
+    border: 1px solid #cccccc;
+    border-radius: 12px; /* Soft rounded corners */
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15); /* Light shadow for depth */
+    overflow: hidden;
+    background-color: #ffffff; /* Clean white background for content */
+  }
+  
+  /* Welcome Section */
+  .welcome-section {
+    flex: 2;
+    padding: 3rem;
+    background-color: #002B5B; /* Deep blue for a bold contrast */
+    text-align: center;
+    color: #ffffff; /* White text for readability */
+  }
+  
+  .welcome-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #E6F7FF; /* Light blue for title text */
+  }
+  
+  .welcome-logo {
+    max-width: 220px;
+    margin-bottom: 2rem;
+    border-radius: 50%; /* Slightly rounded logo for modern design */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow around logo */
+  }
+  
+  .welcome-subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: #A4D7F5; /* Soft blue for subtitles */
+  }
+  
+  .welcome-text {
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 1.8; /* Enhanced line spacing for readability */
+    color: #e0e0e0; /* Light gray for body text */
+  }
+  
+  /* Form Section */
+  .form-section {
+    flex: 1.5; /* Slightly larger form section for balance */
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 3rem; */
+  }
+  
+  .form-container {
+    background-color: #F0F5FF; /* Very light blue for form background */
+    padding: 2.5rem;
+    border: 1px solid #E3EAFD;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1); /* Gentle shadow for elegance */
+  }
+  
+  .form-title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #002B5B; /* Deep blue for form title */
+  }
+  
+  /* Form Groups */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #333333; /* Dark gray label text */
+  }
+  
+  .form-input,
+  .form-textarea {
+    padding: 0.9rem;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px; /* Smooth edges for inputs */
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #333333; /* Neutral text color */
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-input:focus,
+  .form-textarea:focus {
+    border-color: #00509E; /* Deep blue border for focus */
+    box-shadow: 0px 0px 8px rgba(0, 80, 158, 0.3); /* Subtle focus shadow */
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .form-radio-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: #333333;
+  }
+  
+  /* Form Button */
+  .form-button {
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff; /* White text for buttons */
+    background-color: #00509E; /* Deep blue button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .form-button:hover {
+    background-color: #0074D9; /* Brighter blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Stack sections vertically */
+    }
+  
+    .welcome-section,
+    .form-section {
+      flex: 1 1 100%;
+      padding: 2rem;
+    }
+  
+    .welcome-title {
+      font-size: 2.4rem;
+    }
+  
+    .welcome-subtitle {
+      font-size: 1.4rem;
+    }
+  
+    .welcome-text {
+      font-size: 1rem;
+    }
+  
+    .form-container {
+      padding: 2rem;
+    }
+  
+    .form-title {
+      font-size: 1.8rem;
+    }
+  
+    .form-button {
+      font-size: 1rem;
+      padding: 0.8rem;
+    }
+  }

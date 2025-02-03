@@ -1,0 +1,96 @@
+html{
+    font-size: 2vw;
+}
+body{
+    background-color: #FFDFC4;
+    margin: 10vw;
+    color: #5A3E2F;
+    
+}
+h1{
+    text-align: center;
+    font-weight: 1000;
+    font-size: 2rem;
+    background-color: #FFB6C1;
+    padding: 1.2vw;
+    border-radius: 4.8vw;
+    color: black;
+    border: 0.5vw black solid;
+    
+    
+    
+}
+.obor{
+    border: 0.5vw solid black;
+    padding: 0px 3vw 3vw 3vw;
+    background-color: #3C5B94;
+}
+.ibor{
+    border: 0.5vw solid black;
+    background-color: #FFDFC4;
+}
+.leg{
+    text-align: center;
+}
+.ifname{
+    margin: 0 0 0 18vw;
+    width: 30vw;
+    height: 3.5vw;
+    border-radius: 40px;
+    border: 0.2vw solid red;
+    text-align: center;
+    font-size: 0.8rem;
+    
+}
+.lfname{
+    font-size: 1.3rem;
+}
+.ilname{
+    margin: 0 0 0 18vw;
+    width: 30vw;
+    height: 3.5vw;
+    border-radius: 4vw;
+    border: 0.2vw solid red;
+    text-align: center;
+    font-size: 0.8rem;
+    
+}
+.llname,.lphone,.lemail,.ladd,.lpass{
+    font-size: 1.3rem;
+}
+.iemail,.iphone,.ipass{
+    margin: 0 0 0 18vw;
+    width: 30vw;
+    height: 3.5vw;
+    border-radius: 4vw;
+    border: 0.2vw solid red;
+    text-align: center;
+    font-size: 0.8rem;
+    
+}
+.ta{
+    margin: 0 0 0 18vw;
+    border: 0.2vw solid red;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 30vw;
+    height: 15vw;
+}
+button{
+    background-color: #FFA07A;
+    padding: 1vw 5vw 1vw 5vw;
+    font-size: 0.8rem;
+    border-radius: 4vw;
+    margin: 1vw;
+    border: 0.5vw solid black;
+    color: #4B4B4B;
+    margin-left: 28vw;
+}
+
+
+}
+button:active {
+    background-color: white;
+    color: black;             
+    border: 0.5vw solid black;
+}
