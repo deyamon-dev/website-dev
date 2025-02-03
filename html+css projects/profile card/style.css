@@ -1,0 +1,40 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+   
+    height: 50vw;
+    margin:0;
+}
+.pfpcontainer{
+    width:20vw;
+    height:30vw;
+    border-radius: 2vw;
+    overflow: hidden;
+    box-shadow: 1vw 1vw 6vw black;
+
+}
+.image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #0047ab;
+    height: 7.4vw;
+  
+
+}
+.image img{
+    width: 6.5vw;
+    border-radius: 50%;
+    position:absolute;
+    top:2.5vw;
+    border: 2px solid white;
+    outline: 3px solid #0047ab ;
+}
