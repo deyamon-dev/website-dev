@@ -1,6 +1,7 @@
 html{
     margin: 0;
     padding: 0;
+    font-size: 1.6vw;
 }
 body{
 
@@ -9,12 +10,12 @@ body{
     justify-content: center;
     align-items: center;
    
-    height: 50vw;
+    height: 100vh;
     margin:0;
 }
 .pfpcontainer{
-    width:20vw;
-    height:30vw;
+    min-width:20vw;
+    height: 30vw;
     border-radius: 2vw;
     overflow: hidden;
     box-shadow: 1vw 1vw 6vw black;
@@ -38,3 +39,36 @@ body{
     border: 2px solid white;
     outline: 3px solid #0047ab ;
 }
+.contents{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    top:3vw;
+}
+.contents>h2,.contents>h3{
+    margin:0;
+    padding:0;
+}
+.contents>h2{
+    font-size: 1rem;
+}
+.contents>h3{
+    color: rgba(0,0,0,0.6);
+    font-size: 0.8rem;
+    word-spacing: 0.2rem;
+
+}
+.icon{
+    position: relative;
+    top: 1.5vw;
+}
+.icon>img{
+    width:2.8vw;
+
+}
+.insicon{
+    background-color: red;
+    border-radius: 50%;
+}
+   
